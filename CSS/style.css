@@ -200,7 +200,7 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    min-height: 120px;
+    min-height: 140px;
 }
 footer .logo img{
     width: 40px;
