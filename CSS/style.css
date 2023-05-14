@@ -18,6 +18,11 @@ body h2 {
     font-size: 35px;
     margin: 0;
 }
+@media(max-width: 767px) {
+    body h2 {
+        font-size: 25px;
+    } 
+}
 header {
     text-align: center;
     padding: 120px 0 40px;
@@ -80,6 +85,9 @@ header img{
     margin: 0 0 10px;
 }
 @media(max-width: 767px) {
+    .container .intro-text h1 {
+        font-size: 30px;
+    }
     .container .intro-text p{
         padding: 0;
     }
@@ -170,6 +178,7 @@ article .text img{
     .features-row {
         flex-direction: column;
         padding: 20px;
+        margin-bottom: 30px;
     }
     .features .feature {
         margin-bottom: 50px;
