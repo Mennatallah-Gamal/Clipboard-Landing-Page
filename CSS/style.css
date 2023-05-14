@@ -127,7 +127,8 @@ article .text {
 }
 article .text img{
     width: 600px;
-    margin-left: -30px;  
+    margin-left: -30px;
+    
 }
 @media(max-width: 767px) {
     article .text img{
@@ -148,7 +149,7 @@ article .text img{
     }
 }
 .devices {
-    margin-bottom: 20px;
+    padding-top: 40px;
 }
 .devices .main-heading {
     margin-top: 60px;
@@ -172,6 +173,9 @@ article .text img{
 }
 .features {
     padding-bottom: 50px;
+}
+.features .main-heading {
+    margin-top: 120px;
 }
 .features-row {
     display: flex;
