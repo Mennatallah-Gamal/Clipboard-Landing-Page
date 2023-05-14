@@ -212,7 +212,7 @@ article .text img{
     }
 }
 .container .last-heading  {
-    margin: 120px 0 0;
+    margin: 115px 0 0;
 }
 .container .last-heading  p{
     padding: 0 160px;
@@ -223,11 +223,11 @@ article .text img{
     }
 }
 footer {
-    background-color: hsl(187, 22%, 93%);
+    background-color: rgba(233, 231, 231, 0.356);
     display: flex;
     justify-content: space-around;
     align-items: center;
-    min-height: 160px;
+    min-height: 150px;
 }
 footer .logo img{
     width: 40px;
@@ -240,7 +240,7 @@ footer .contact {
 footer .contact span{
     display: block;
     padding: 10px;
-    color:  hsl(210, 10%, 33%);
+    color: hsl(202, 11%, 66%);
 }
 footer .social-media{
     display: flex;
