@@ -1,0 +1,226 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 18px;
+    margin: 0;
+    width: 1440px;
+}
+body p {
+    color: hsl(201, 11%, 66%);
+    line-height: 1.7;
+}
+body h1,h2,h3 {
+    color: hsl(210, 10%, 33%);
+}
+body h2 {
+    font-size: 30px;
+}
+header {
+    text-align: center;
+    padding: 120px 0 40px;
+    background-image: url(../images/bg-header-desktop.png);
+}
+header img{
+    margin-top: 20px;
+}
+@media(max-width: 767px) {
+    body {
+        width: 375px;
+    }
+    header {
+        text-align: center;
+        background-image: url(../images/bg-header-mobile.png);
+        padding: 70px 0 20px;
+    }
+    header img{
+        width: 100px;
+    }
+}
+/* Start Component */
+.main-heading {
+    text-align: center;
+    margin: 100px 0;
+}
+.main-heading p{
+    padding: 0 200px 50px;
+}
+@media(max-width: 767px) {
+    .main-heading {
+        padding:0 20px;
+    }
+    .main-heading p{
+        padding:0;
+        margin-bottom: 50px;
+    }
+}
+/* End Component */
+.container{
+    text-align: center;
+    margin-bottom: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+@media(max-width: 767px) {
+    .container{
+        text-align: center;
+        margin-bottom: 100px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+.container .info h1 {
+    font-size: 45px;
+    margin: 20px 0;
+}
+.container .info p{
+    padding: 0 150px;
+}
+@media(max-width: 767px) {
+    .container .info p{
+        padding: 0;
+    }
+}
+.download button {
+    padding: 20px 40px;
+    border-radius: 100px;
+    border: none;
+    color: white;
+}
+.download {
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+.download .ios {
+    background-color: hsl(171, 66%, 44%);
+}
+@media(max-width: 767px) {
+    .download .ios {
+        margin-bottom: 10px;
+    }
+}
+.download .mac {
+    background-color: hsl(233, 100%, 69%);
+}
+article .text {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+@media(max-width: 767px) {
+    article .text {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+article .text img{
+    width: 600px;
+    margin-left: -30px;
+    
+}
+@media(max-width: 767px) {
+    article .text img{
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+.text .info p{
+    width: 50%;
+    margin-bottom: 30px;
+}
+@media(max-width: 767px) {
+    .text .info p{
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+.container img {
+    width: 85%;
+    margin-top: 60px;
+}
+@media(max-width: 767px) {
+    .container img {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+.features-row {
+    display: flex;
+    text-align: center;
+    padding:50px 100px;
+    margin-bottom: 100px;
+}
+@media(max-width: 767px) {
+    .features-row {
+        flex-direction: column;
+        padding: 20px;
+    }
+    .feature {
+        margin-bottom: 50px;
+    }
+}
+.logos {
+    display: flex; 
+    justify-content: space-between;
+    padding:0 100px 100px;
+}
+@media(max-width: 767px) {
+    .logos {
+        flex-direction: column;
+        text-align: center;
+    }
+    .logos img{
+        padding: 30px;
+    }
+}
+footer {
+    background-color: hsl(187, 22%, 93%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 120px;
+}
+footer .logo img{
+    width: 40px;
+}
+footer .contact {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+}
+footer .contact span{
+    display: block;
+    padding: 10px;
+    color:  hsl(210, 10%, 33%);
+}
+footer .social-media{
+    display: flex;
+    align-items: center;
+}
+footer .social-media img{
+    width: 15px;
+    margin-left: 15px;
+}
+@media(max-width: 767px) {
+    footer {
+        flex-direction: column;
+        text-align: center;
+        padding: 30px 0;
+    } 
+    footer .logo img{
+        margin-bottom: 20px;
+    }
+    footer .contact {
+        flex-direction: column;
+    }
+    footer .social-media{
+        width: 50%;
+        justify-content: space-between;
+        padding: 20px;
+    }
+    footer .social-media img{
+        margin-left: 0;
+    }
+}
