@@ -93,7 +93,7 @@ header img{
     }
 }
 .download button {
-    padding: 18px 34px;
+    padding: 20px 34px;
     border-radius: 100px;
     border: none;
     color: white;
@@ -174,7 +174,7 @@ article .text img{
     }
 }
 .features {
-    padding-bottom: 70px;
+    padding-bottom: 50px;
 }
 .features .main-heading {
     margin-top: 70px;
