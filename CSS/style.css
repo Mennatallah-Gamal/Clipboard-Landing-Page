@@ -174,7 +174,7 @@ article .text img{
     }
 }
 .features {
-    padding-bottom: 60px;
+    padding-bottom: 70px;
 }
 .features .main-heading {
     margin-top: 70px;
@@ -184,7 +184,7 @@ article .text img{
     display: flex;
     text-align: center;
     padding:0 100px;
-    margin-bottom: 100px;
+    margin-bottom: 110px;
 }
 @media(max-width: 767px) {
     .features-row {
@@ -213,7 +213,7 @@ article .text img{
     }
 }
 .container .last-heading  {
-    margin: 130px 0 0;
+    margin: 120px 0 0;
 }
 .container .last-heading  p{
     padding: 0 160px;
