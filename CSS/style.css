@@ -41,7 +41,7 @@ header img{
 /* Start Component */
 .main-heading {
     text-align: center;
-    margin: 120px 0;
+    margin: 100px 0;
 }
 .main-heading p{
     padding: 0 350px 50px;
@@ -89,7 +89,7 @@ header img{
     color: white;
 }
 .download {
-    margin-bottom: 130px;
+    margin-bottom: 140px;
     margin-top: 45px;
 }
 .download .ios {
@@ -107,6 +107,7 @@ article .text {
     display: flex;
     justify-content: space-between;
     margin-bottom: 150px;
+    margin-top: 40px;
 }
 @media(max-width: 767px) {
     article .text {
@@ -147,7 +148,6 @@ article .text img{
 }
 .container img {
     width: 88%;
-    margin-top: 15px;
 }
 @media(max-width: 767px) {
     .container img {
