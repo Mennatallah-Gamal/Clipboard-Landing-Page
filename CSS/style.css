@@ -127,8 +127,7 @@ article .text {
 }
 article .text img{
     width: 600px;
-    margin-left: -30px;
-    
+    margin-left: -30px;  
 }
 @media(max-width: 767px) {
     article .text img{
