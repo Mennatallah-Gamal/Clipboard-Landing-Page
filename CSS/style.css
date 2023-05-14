@@ -15,7 +15,7 @@ body h1,h2,h3 {
     color: hsl(210, 10%, 33%);
 }
 body h2 {
-    font-size: 30px;
+    font-size: 35px;
 }
 header {
     text-align: center;
@@ -44,14 +44,14 @@ header img{
     margin: 120px 0;
 }
 .main-heading p{
-    padding: 0 200px 50px;
+    padding: 0 350px 50px;
 }
 @media(max-width: 767px) {
     .main-heading {
-        padding:0 20px;
+        padding:0 40px;
     }
     .main-heading p{
-        padding:0;
+        padding:0 ;
         margin-bottom: 50px;
     }
 }
@@ -71,8 +71,8 @@ header img{
     }
 }
 .container .intro-text h1 {
-    font-size: 45px;
-    margin: 20px 0;
+    font-size: 50px;
+    margin: 10px 0;
 }
 .container .intro-text p{
     padding: 0 150px;
@@ -89,8 +89,8 @@ header img{
     color: white;
 }
 .download {
-    margin-bottom: 100px;
-    margin-top: 50px;
+    margin-bottom: 130px;
+    margin-top: 45px;
 }
 .download .ios {
     background-color: hsl(171, 66%, 44%);
@@ -137,9 +137,17 @@ article .text img{
         padding: 20px;
     }
 }
+.container .main-heading p{
+    padding: 0 250px 50px;
+}
+@media(max-width: 767px) {
+    .container .main-heading p{
+        padding: 0 ;
+    }
+}
 .container img {
-    width: 85%;
-    margin-top: 20px;
+    width: 88%;
+    margin-top: 15px;
 }
 @media(max-width: 767px) {
     .container img {
@@ -150,7 +158,7 @@ article .text img{
 .features-row {
     display: flex;
     text-align: center;
-    padding:50px 100px;
+    padding:0 100px;
     margin-bottom: 100px;
 }
 @media(max-width: 767px) {
@@ -165,7 +173,7 @@ article .text img{
 .logos {
     display: flex; 
     justify-content: space-between;
-    padding:0 100px 100px;
+    padding:0 100px 30px;
 }
 @media(max-width: 767px) {
     .logos {
@@ -174,6 +182,17 @@ article .text img{
     }
     .logos img{
         padding: 30px;
+    }
+}
+.container .last-heading  {
+    margin: 120px 0 0;
+}
+.container .last-heading  p{
+    padding: 0 160px;
+}
+@media(max-width: 767px) {
+    .container .last-heading p{
+        padding: 0 ;
     }
 }
 footer {
