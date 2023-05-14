@@ -149,7 +149,8 @@ article .text img{
     }
 }
 .devices {
-    padding-top: 40px;
+    padding-top: 20px;
+    margin-bottom: 0;
 }
 .devices .main-heading {
     margin-top: 60px;
