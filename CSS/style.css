@@ -23,7 +23,7 @@ header {
     background-image: url(../images/bg-header-desktop.png);
 }
 header img{
-    margin-top: 20px;
+    margin-top: 10px;
 }
 @media(max-width: 767px) {
     body {
@@ -41,7 +41,7 @@ header img{
 /* Start Component */
 .main-heading {
     text-align: center;
-    margin: 100px 0;
+    margin: 120px 0;
 }
 .main-heading p{
     padding: 0 200px 50px;
@@ -70,15 +70,15 @@ header img{
         padding-right: 40px;
     }
 }
-.container .info h1 {
+.container .intro-text h1 {
     font-size: 45px;
     margin: 20px 0;
 }
-.container .info p{
+.container .intro-text p{
     padding: 0 150px;
 }
 @media(max-width: 767px) {
-    .container .info p{
+    .container .intro-text p{
         padding: 0;
     }
 }
@@ -106,7 +106,7 @@ header img{
 article .text {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 }
 @media(max-width: 767px) {
     article .text {
@@ -134,11 +134,12 @@ article .text img{
         width: 100%;
         text-align: center;
         margin: 0 auto;
+        padding: 20px;
     }
 }
 .container img {
     width: 85%;
-    margin-top: 60px;
+    margin-top: 20px;
 }
 @media(max-width: 767px) {
     .container img {
@@ -157,7 +158,7 @@ article .text img{
         flex-direction: column;
         padding: 20px;
     }
-    .feature {
+    .features .feature {
         margin-bottom: 50px;
     }
 }
