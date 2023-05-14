@@ -15,7 +15,7 @@ body h1,h2,h3 {
     color: hsl(210, 10%, 33%);
 }
 body h2 {
-    font-size: 35px;
+    font-size: 37px;
     margin: 0;
 }
 @media(max-width: 767px) {
@@ -93,7 +93,7 @@ header img{
     }
 }
 .download button {
-    padding: 15px 34px;
+    padding: 18px 34px;
     border-radius: 100px;
     border: none;
     color: white;
