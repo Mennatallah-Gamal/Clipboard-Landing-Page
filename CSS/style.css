@@ -116,7 +116,7 @@ header img{
 article .text {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 130px;
+    margin-bottom: 140px;
     margin-top: 40px;
 }
 @media(max-width: 767px) {
@@ -173,7 +173,7 @@ article .text img{
     }
 }
 .features {
-    padding-bottom: 50px;
+    padding-bottom: 60px;
 }
 .features .main-heading {
     margin-top: 80px;
@@ -199,6 +199,7 @@ article .text img{
     display: flex; 
     justify-content: space-between;
     padding:0 100px 30px;
+    margin-bottom: 10px;
 }
 @media(max-width: 767px) {
     .logos {
