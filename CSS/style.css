@@ -93,7 +93,7 @@ header img{
     }
 }
 .download button {
-    padding: 20px 34px;
+    padding: 20px 40px;
     border-radius: 100px;
     border: none;
     color: white;
@@ -184,7 +184,7 @@ article .text img{
     display: flex;
     text-align: center;
     padding:0 100px;
-    margin-bottom: 110px;
+    margin-bottom: 100px;
 }
 @media(max-width: 767px) {
     .features-row {
