@@ -99,7 +99,7 @@ header img{
     color: white;
 }
 .download {
-    margin-bottom: 135px;
+    margin-bottom: 130px;
     margin-top: 50px;
 }
 .download .ios {
@@ -200,7 +200,7 @@ article .text img{
 .logos {
     display: flex; 
     justify-content: space-between;
-    padding:0 100px 30px;
+    padding:20 100px 30px;
     margin-bottom: 10px;
 }
 @media(max-width: 767px) {
