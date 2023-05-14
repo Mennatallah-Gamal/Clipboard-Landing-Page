@@ -41,7 +41,7 @@ header img{
 /* Start Component */
 .main-heading {
     text-align: center;
-    margin: 100px 0;
+    margin: 100px 0 80px;
 }
 .main-heading p{
     padding: 0 350px 50px;
@@ -200,7 +200,7 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    min-height: 120px;
+    min-height: 140px;
 }
 footer .logo img{
     width: 40px;
