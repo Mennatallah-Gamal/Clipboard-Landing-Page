@@ -164,7 +164,7 @@ article .text img{
     }
 }
 .container img {
-    width: 85%;
+    width: 87%;
 }
 @media(max-width: 767px) {
     .container img {
@@ -176,7 +176,8 @@ article .text img{
     padding-bottom: 60px;
 }
 .features .main-heading {
-    margin-top: 80px;
+    margin-top: 70px;
+    margin-bottom: 40px;
 }
 .features-row {
     display: flex;
@@ -226,7 +227,7 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    min-height: 140px;
+    min-height: 160px;
 }
 footer .logo img{
     width: 40px;
