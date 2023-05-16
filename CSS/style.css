@@ -200,7 +200,7 @@ article .text img{
 .logos {
     display: flex; 
     justify-content: space-between;
-    padding:20 100px 30px;
+    padding:20px 100px 30px;
     margin-bottom: 30px;
 }
 @media(max-width: 767px) {
