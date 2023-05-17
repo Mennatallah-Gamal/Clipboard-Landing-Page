@@ -239,7 +239,6 @@ footer .logo img{
 footer .contact {
     display: flex;
     justify-content: space-between;
-    width: 600px;
 }
 footer .contact span{
     display: block;
